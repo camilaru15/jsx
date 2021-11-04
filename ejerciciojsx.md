@@ -2,6 +2,7 @@
 
 ## Participantes:
 
+- Alison Melisa Jimenez Naranjo 
 - Maria Camila Rueda Cano
 
 ### Ejercicio N°1
