@@ -6,11 +6,11 @@
 
 ### Ejercicio N°1
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejericicio1.png)
 
 ### Ejercicio N°2
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejericicio2.png)
 
 ### Ejercicio N°3
 
@@ -18,31 +18,31 @@
 
 ### Ejercicio N°4
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio4.png)
 
 ### Ejercicio N°5
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio5.png)
 
 ### Ejercicio N°6
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio6.png)
 
 ### Ejercicio N°7
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio7.png)
 
 ### Ejercicio N°8
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio8.png)
 
 ### Ejercicio N°9
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio9.png)
 
 ### Ejercicio N°10
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio10.png)
 
 ### Ejercicio N°11
 
