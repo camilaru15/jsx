@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ejercicios jsx </title>
+  </head>
+  <body>
+    <div id="root">
+      <!--Render code React-js-->
+    </div>
+
+    <!-- Cargar React. -->
+    <!-- Nota: cuando se despliegue, reemplazar "development.js" con "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- Cargamos nuestro componente de React. -->
+    <script type="text/babel">
+// nota cada codigo que veas documentado de aca para abajo
+// seran diferentes formas de realizarlo con jsx los coloco para
+// que podamos probar y mirar diferentes formas de como podriamos realizarlos
+// los 12 ejercicios
+
+// 0. guardado de datos simple
+const data = {
+  title_1: "Recetas.com",
+  paragraph_1: "Bienvenido a nuestro sitio web sobre gastronomia latina, te invitamos a preparar nuestras recetas",
+  title_2: "Nuevas recetas",
+  title_3: "***Arroz Criollo***",
+  paragraph_2: "Tiempo de preparacion: ",
+  paragraph_3: " 45 minutos",
+  paragraph_4: " Numero de porciones ",
+  paragraph_5: "4",
+  title_4: "Ingredientes",
+  paragraph_6: "Salsa de tomate",
+  paragraph_7: "2 cucharadas de aceite 14 gr",
+  paragraph_8: "1 cebolla larga picada 45gr",
+  paragraph_9: "2 dientes de ajo finamente picado 3gr",
+  paragraph_10: "1 pimenton rojo picado en cuadritos 60gr",
+  paragraph_11: "1 taza de arroz blanco 225gr",
+  paragraph_12: "1 taza de maiz desgranado 79gr",
+  paragraph_13: "150gr de pechuga de pollo cocinado y desmechado",
+  paragraph_14: "Sal al gusto",
+  title_5: "Preparacion",
+  paragraph_15: "Calentar en una olla el aceite, sofreir la cebolla junto con el ajo, el pimenton por 3 minutos ",
+  paragraph_16: "Adicionar el arroz y continua sofriendo para que se dore",
+  paragraph_17: "Agregar el polo, el maiz desgranado y las verduras",
+  paragraph_18: "Mezclar todo, recifrar sal y dejar cocinar hasta que se seque",
+  paragraph_19: "Bajar el fuego, tapar la olla y continuar la coccion por 25 minutos mas",
+  paragraph_20: "Esta rica receta fue proporcuonada por Maria Paula",
+}
+
+// 1.
+const title_x = <h1><img src="imagenes/gorro.jpg"/>{data.title_1}</h1>;
+const paragraph_x = <p>{data.paragraph_1}</p>;
+const subtitle_x = <h2>{data.title_2}</h2>;
+const subtitle_2x = <h3>{data.title_3}</h3>;
+const paragraph_2x = <p>{data.paragraph_2}<strong>{data.paragraph_3}</strong>{data.paragraph_4}<strong>{data.paragraph_5}</strong></p>;
+const subtitle_3x = <h3>{data.title_4}</h3>
+const paragraph_3x = <strong><ul>
+    <li>{data.paragraph_6}</li>
+    <li>{data.paragraph_7}</li>
+    <li>{data.paragraph_8}</li>
+    <li>{data.paragraph_9}</li>
+    <li>{data.paragraph_10}</li>
+    <li>{data.paragraph_11}</li>
+    <li>{data.paragraph_12}</li>
+    <li>{data.paragraph_13}</li>
+    <li>{data.paragraph_14}</li>
+</ul></strong>
+const subtitle_4x = <h3>{data.title_5}</h3>
+const paragraph_4x = <ol>
+    <li>{data.paragraph_15}</li>
+    <li>{data.paragraph_16}</li>
+    <li>{data.paragraph_17}</li>
+    <li>{data.paragraph_18}</li>
+    <li>{data.paragraph_19}</li>
+    <li>{data.paragraph_20}</li>
+</ol>
+const paragraph_5x = <p>{data.paragraph_20}</p>
+
+
+const element = (
+  <div>
+    {title_x}
+    {paragraph_x}
+    {subtitle_x}
+    {subtitle_2x}
+    {paragraph_2x}
+    {subtitle_3x}
+    {paragraph_3x}
+    {subtitle_4x}
+    {paragraph_4x}
+    {paragraph_5x}
+  </div>
+);
+
+
+// Renderiamos o pintamos
+ReactDOM.render(
+  element,// estructura jsx para pintar
+  document.getElementById('root')// elemento donde se pintara
+);
+    </script>
+  </body>
+</html>
