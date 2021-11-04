@@ -1,4 +1,4 @@
-# TAREA N°6
+# TAREA JSX
 
 ## Participantes:
 

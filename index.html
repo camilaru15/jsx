@@ -23,75 +23,53 @@
 
 // 0. guardado de datos simple
 const data = {
-  title_1: "Recetas.com",
-  paragraph_1: "Bienvenido a nuestro sitio web sobre gastronomia latina, te invitamos a preparar nuestras recetas",
-  title_2: "Nuevas recetas",
-  title_3: "***Arroz Criollo***",
-  paragraph_2: "Tiempo de preparacion: ",
-  paragraph_3: " 45 minutos",
-  paragraph_4: " Numero de porciones ",
-  paragraph_5: "4",
-  title_4: "Ingredientes",
-  paragraph_6: "Salsa de tomate",
-  paragraph_7: "2 cucharadas de aceite 14 gr",
-  paragraph_8: "1 cebolla larga picada 45gr",
-  paragraph_9: "2 dientes de ajo finamente picado 3gr",
-  paragraph_10: "1 pimenton rojo picado en cuadritos 60gr",
-  paragraph_11: "1 taza de arroz blanco 225gr",
-  paragraph_12: "1 taza de maiz desgranado 79gr",
-  paragraph_13: "150gr de pechuga de pollo cocinado y desmechado",
-  paragraph_14: "Sal al gusto",
-  title_5: "Preparacion",
-  paragraph_15: "Calentar en una olla el aceite, sofreir la cebolla junto con el ajo, el pimenton por 3 minutos ",
-  paragraph_16: "Adicionar el arroz y continua sofriendo para que se dore",
-  paragraph_17: "Agregar el polo, el maiz desgranado y las verduras",
-  paragraph_18: "Mezclar todo, recifrar sal y dejar cocinar hasta que se seque",
-  paragraph_19: "Bajar el fuego, tapar la olla y continuar la coccion por 25 minutos mas",
-  paragraph_20: "Esta rica receta fue proporcuonada por Maria Paula",
+  title_1: "Registro en nuestra tienda ",
+  paragraph_1: "Nombre de usuario",
+  paragraph_2: "Email: ",
+  paragraph_3: "Edad: ",
+  paragraph_4: "Genero:",
+  paragraph_5: "Masculino",
+  paragraph_6: "Femenino",
+  paragraph_7: "Recomendado por:",
+  paragraph_8: "Google",
+  paragraph_9 : "Comentarios:",
+  paragraph_10: "Acepto temrinos y condiciones",
+  paragraph_11: "Registrar ",
 }
 
 // 1.
-const title_x = <h1><img src="imagenes/gorro.jpg"/>{data.title_1}</h1>;
-const paragraph_x = <p>{data.paragraph_1}</p>;
-const subtitle_x = <h2>{data.title_2}</h2>;
-const subtitle_2x = <h3>{data.title_3}</h3>;
-const paragraph_2x = <p>{data.paragraph_2}<strong>{data.paragraph_3}</strong>{data.paragraph_4}<strong>{data.paragraph_5}</strong></p>;
-const subtitle_3x = <h3>{data.title_4}</h3>
-const paragraph_3x = <strong><ul>
-    <li>{data.paragraph_6}</li>
-    <li>{data.paragraph_7}</li>
-    <li>{data.paragraph_8}</li>
-    <li>{data.paragraph_9}</li>
-    <li>{data.paragraph_10}</li>
-    <li>{data.paragraph_11}</li>
-    <li>{data.paragraph_12}</li>
-    <li>{data.paragraph_13}</li>
-    <li>{data.paragraph_14}</li>
-</ul></strong>
-const subtitle_4x = <h3>{data.title_5}</h3>
-const paragraph_4x = <ol>
-    <li>{data.paragraph_15}</li>
-    <li>{data.paragraph_16}</li>
-    <li>{data.paragraph_17}</li>
-    <li>{data.paragraph_18}</li>
-    <li>{data.paragraph_19}</li>
-    <li>{data.paragraph_20}</li>
-</ol>
-const paragraph_5x = <p>{data.paragraph_20}</p>
-
+const title_x = <h1>{data.title_1}</h1>;
+const paragraph_x = <form>
+<label>{data.paragraph_1}<br/><input type='text' placeholder="Ej: luis"/></label>
+<br/><br/>
+<label>{data.paragraph_2}<br/><input type='text' placeholder="Ej: luis@gmail.com"/></label>
+<br/><br/>
+<label>{data.paragraph_3}<br/><input type='text' placeholder="Ej: 21"/></label>
+<br/><br/>
+<label>{data.paragraph_4}</label>
+<br/>
+<label><input type="radio"/>{data.paragraph_5}</label>
+<br/>
+<label><input type="radio"/>{data.paragraph_6}</label>
+<br/><br/>
+<label>{data.paragraph_7}</label>
+<br/>
+<label><select>
+  {data.paragraph_8}<option value="Google"/>
+</select></label>
+<br/><br/>
+<label>{data.paragraph_9}<br/><input type='text'/></label>
+<br/><br/>
+<label>{data.paragraph_10}<br/><input type="radio"/></label>
+<br/><br/>
+<button type="button">{data.paragraph_11}</button>
+</form>;
+  
 
 const element = (
   <div>
     {title_x}
     {paragraph_x}
-    {subtitle_x}
-    {subtitle_2x}
-    {paragraph_2x}
-    {subtitle_3x}
-    {paragraph_3x}
-    {subtitle_4x}
-    {paragraph_4x}
-    {paragraph_5x}
   </div>
 );
 
