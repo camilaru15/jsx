@@ -46,7 +46,7 @@
 
 ### Ejercicio N°11
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio11.png)
 
 ### Ejercicio N°12
 
