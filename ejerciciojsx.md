@@ -51,8 +51,8 @@
 
 ### Ejercicio N°12
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio12.jpeg)
 
 ### Ejercicio N°13
 
-![ll]()
+![ll](https://github.com/camilaru15/jsx/blob/master/imagenes/ejercicio13.png)
