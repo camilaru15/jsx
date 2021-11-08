@@ -23,53 +23,27 @@
 
 // 0. guardado de datos simple
 const data = {
-  title_1: "Registro en nuestra tienda ",
-  paragraph_1: "Nombre de usuario",
-  paragraph_2: "Email: ",
-  paragraph_3: "Edad: ",
-  paragraph_4: "Genero:",
-  paragraph_5: "Masculino",
-  paragraph_6: "Femenino",
-  paragraph_7: "Recomendado por:",
-  paragraph_8: "Google",
-  paragraph_9 : "Comentarios:",
-  paragraph_10: "Acepto temrinos y condiciones",
-  paragraph_11: "Registrar ",
+  title_1: "Santana - Smooth ft. Rob Thomas (Official Video)",
+  des: "Check out Santana's official music video for 'Smooth' ft. Rob Thomas. ",
+  copi: "WMG, SME (en representación de Non-Wea/Other); UNIAO BRASILEIRA DE EDITORAS DE MUSICA - UBEM, AMRA, BMI - Broadcast Music Inc., ASCAP, CMRRA, LatinAutorPerf, Hipgnosis Songs Group, LLC, UMPI, LatinAutor - SonyATV, Sony ATV Publishing, Abramus Digital, SOLAR Music Rights Management, Kobalt Music Publishing, LatinAutor y 15 sociedades de derechos musicales"
 }
 
 // 1.
 const title_x = <h1>{data.title_1}</h1>;
-const paragraph_x = <form>
-<label>{data.paragraph_1}<br/><input type='text' placeholder="Ej: luis"/></label>
-<br/><br/>
-<label>{data.paragraph_2}<br/><input type='text' placeholder="Ej: luis@gmail.com"/></label>
-<br/><br/>
-<label>{data.paragraph_3}<br/><input type='text' placeholder="Ej: 21"/></label>
-<br/><br/>
-<label>{data.paragraph_4}</label>
-<br/>
-<label><input type="radio"/>{data.paragraph_5}</label>
-<br/>
-<label><input type="radio"/>{data.paragraph_6}</label>
-<br/><br/>
-<label>{data.paragraph_7}</label>
-<br/>
-<label><select>
-  {data.paragraph_8}<option value="Google"/>
-</select></label>
-<br/><br/>
-<label>{data.paragraph_9}<br/><input type='text'/></label>
-<br/><br/>
-<label>{data.paragraph_10}<br/><input type="radio"/></label>
-<br/><br/>
-<button type="button">{data.paragraph_11}</button>
-</form>;
+const descriptiom = <h4>{data.des}</h4>
+const copyright = <h3>{data.copi}</h3>
+const audio = 
+<div>
+    <audio src="assets/cancion.mp3" preload="none" controls></audio>
+</div>;
   
 
 const element = (
   <div>
     {title_x}
-    {paragraph_x}
+    {descriptiom}
+    {audio}
+    {copyright}
   </div>
 );
 
